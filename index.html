@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
-<body>
+<body class="bg-light">
 
 <!-- Nav bar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
@@ -34,8 +34,8 @@
     </nav>
 
 <!-- About me content -->
-<div class="jumbotron bg-white">
-    <div class="container">
+<div class="jumbotron bg-white" style="width: 960px;"> <!-- How do I center the jumbotron on the page? Margins as column in grid system?-->
+    <div class="container"> <!--Am i allowed to use ^ style or is that cheating?-->
         <div class="row">
             <div class="col-md-12">
                 <h1 class="display-4 text-info">About Me</h1>
@@ -44,10 +44,10 @@
         </div>
 
         <div class="row">
-            <div class="col-md-2 pull-left">
+            <div class="col-md-3">
                 <img src="unicornemoji.png">
             </div>
-            <div class="col-md-10 pull-left">
+            <div class="col-md-9">
                 <p>
                     Minori is an ex-consultant turned aspiring dev! Her dream job is to be a "unicorn," 
                     a front-end dev who dabbles in UX design. One day she hopes to open a retirement home for elderly dogs.
@@ -61,8 +61,8 @@
 </div>
 
 <!-- footer -->
-<footer class="fixed-bottom footer bg-secondary border-top border-info">
-    <div class="container">
+<footer class="fixed-bottom footer bg-secondary border-top border-info text-center"> <!-- How do i change the height of the border without css?-->
+    <div class="container" style="height: 50px;">
        <span class="text-white">Copyright © </span>
     </div>
 </footer>
